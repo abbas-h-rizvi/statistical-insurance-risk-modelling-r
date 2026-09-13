@@ -62,11 +62,11 @@ The scree plot shows the relative contribution of the principal components and h
 
 ![PCA Scree Plot](figures/pca_scree_plot.png)
 
-### PC1-PC2 Score Plot with Variable Loadings
+### Cumulative Variance Explained
 
-This plot shows observations projected onto the first two principal components, together with loading vectors indicating how the original variables contribute to the component structure.
+The cumulative variance plot shows how the proportion of total variability captured increases as additional principal components are retained. Five principal components were retained, explaining **73.3%** of cumulative variance.
 
-![PC1-PC2 Score Plot with Variable Loadings](figures/pca_score_loading_plot.png)
+![PCA Cumulative Variance Explained](figures/pca_cumulative_variance.png)
 
 ### ARIMA Residual Diagnostics
 
