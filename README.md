@@ -54,6 +54,26 @@ The project demonstrates multivariate analysis, dependence modelling, dimensiona
   - Series 2: **ARIMA(0,0,2)**
   - Series 3: **ARIMA(2,1,0)**
 
+## Selected Visualisations
+
+### PCA Scree Plot
+
+The scree plot shows the relative contribution of the principal components and helps assess how many components should be retained.
+
+![PCA Scree Plot](figures/pca_scree_plot.png)
+
+### PC1-PC2 Score Plot with Variable Loadings
+
+This plot shows observations projected onto the first two principal components, together with loading vectors indicating how the original variables contribute to the component structure.
+
+![PC1-PC2 Score Plot with Variable Loadings](figures/pca_score_loading_plot.png)
+
+### ARIMA Residual Diagnostics
+
+Residual autocorrelation plots were used to assess whether the selected ARIMA models had adequately removed serial dependence from the three simulated time series.
+
+![ARIMA Residual ACF Diagnostics](figures/arima_residual_acf.png)
+
 ## Repository Structure
 
 ```text
@@ -64,3 +84,8 @@ statistical-insurance-risk-modelling-r/
 ├── pca_analysis.R
 ├── arima_modelling.R
 └── figures/
+    ├── pca_scree_plot.png
+    ├── pca_cumulative_variance.png
+    ├── pca_score_loading_plot.png
+    ├── arima_series_overview.png
+    └── arima_residual_acf.png
